@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.tmaher.learning-serenity.iml" filepath="$PROJECT_DIR$/.idea/modules/com.tmaher.learning-serenity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.tmaher.learning-serenity_main.iml" filepath="$PROJECT_DIR$/.idea/modules/com.tmaher.learning-serenity_main.iml" group="com.tmaher.learning-serenity" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.tmaher.learning-serenity_test.iml" filepath="$PROJECT_DIR$/.idea/modules/com.tmaher.learning-serenity_test.iml" group="com.tmaher.learning-serenity" />
+    </modules>
+  </component>
+</project>
