@@ -1,11 +1,10 @@
 package steps;
 
-import Ability.Authenticate;
+import ability.Authenticate;
 import cucumber.api.java.en.Then;
 import tasks.LogIn;
 import tasks.VisitLoginPage;
 
-import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.When;
 import net.serenitybdd.screenplay.Actor;
@@ -14,8 +13,9 @@ import net.thucydides.core.annotations.Managed;
 import net.thucydides.core.annotations.Steps;
 import org.openqa.selenium.WebDriver;
 
+import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
 
-public class LogIntoLoginPage {
+public class LogIntoSecureArea {
 
     @Steps
     VisitLoginPage visitTheLoginPage;
@@ -38,9 +38,9 @@ public class LogIntoLoginPage {
         tomSmith.attemptsTo(LogIn.withCredentials());
     }
 
-    @Then("^the user navigates_to the Secure Area landing page$")
-    public void the_user_navigates_to_the_secure_area_landing_page(){
-
+    @Then("^the user should see the Secure Area landing page$")
+    public void the_user_should_see_the_secure_area_landing_page(){
+//        tomSmith.should(eventually(seeThat(getHeaderText, equalTo("Secure Area") )));
     }
 
 }

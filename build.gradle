@@ -1,6 +1,11 @@
 group 'com.tmaher.learning-serenity'
 version '1.0-SNAPSHOT'
 
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'idea'
+apply plugin: 'net.serenity-bdd.aggregator'
+
 repositories {
     mavenLocal()
     jcenter()
@@ -16,10 +21,7 @@ buildscript {
     }
 }
 
-apply plugin: 'java'
-apply plugin: 'eclipse'
-apply plugin: 'idea'
-apply plugin: 'net.serenity-bdd.aggregator'
+
 
 dependencies {
     testCompile('net.serenity-bdd:serenity-core:1.2.2')

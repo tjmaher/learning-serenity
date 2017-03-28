@@ -1,4 +1,4 @@
-package Ability;
+package ability;
 
 import net.serenitybdd.screenplay.Ability;
 import net.serenitybdd.screenplay.Actor;
